@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f5f7fa;
+}
+
+header.landing {
+  background: linear-gradient(to right, #e0f7fa, #fce4ec);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: #6a1b9a;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.cta-buttons button,
+.cta-buttons a {
+  margin: 10px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#startBtn {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+#themeToggle,
+#templateToggle {
+  background: white;
+  color: #6a1b9a;
+  border: 2px solid #6a1b9a;
+}
+
+form {
+  background: white;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.resume-output {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.hidden {
+  display: none;
+}
+
+.theme-dark {
+  background-color: #212121;
+  color: white;
+}
+
+.template-modern {
+  font-family: 'Verdana', sans-serif;
+  border-left: 6px solid #6a1b9a;
+  padding-left: 20px;
+}
