@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Resume Builder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="landing">
+    <div class="container">
+      <h1><span class="highlight">Smart</span> Resume Builder</h1>
+      <p>Create your professional resume in minutes with customizable templates, color themes, and more.</p>
+      <div class="cta-buttons">
+        <button id="startBtn">Start Building</button>
+        <a href="#" id="themeToggle">Switch Theme</a>
+        <a href="#" id="templateToggle">Switch Template</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="builderSection" class="hidden">
+    <form id="resumeForm">
+      <input type="text" placeholder="Full Name" id="name" required />
+      <input type="text" placeholder="Email" id="email" required />
+      <input type="text" placeholder="Phone" id="phone" required />
+      <input type="text" placeholder="Guardian Name" id="guardian" />
+      <input type="text" placeholder="Company (Optional)" id="company" />
+      <input type="text" placeholder="Project (Optional)" id="project" />
+      <textarea placeholder="Skills (comma separated)" id="skills"></textarea>
+      <textarea placeholder="Hobbies" id="hobbies"></textarea>
+      <input type="file" id="imageUpload" />
+      <button type="submit">Generate Resume</button>
+    </form>
+
+    <section id="resumeOutput" class="resume-output hidden">
+      <div id="resumeContainer"></div>
+      <button id="downloadPdf">Download PDF</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Smart Resume Builder &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
